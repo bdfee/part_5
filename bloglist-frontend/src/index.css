@@ -1,0 +1,77 @@
+button {
+  background: whitesmoke;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  border-color: lightgray;
+}
+
+button:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.notification {
+  font-size: 16px;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 2px;
+  background: whitesmoke;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.login input{
+  margin-left: 5px;
+  width: 140px;
+}
+
+.blog {
+  padding-top: 5px;
+  padding-left: 5px;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-color: rgb(216, 210, 210);
+}
+
+.logout {
+  margin-bottom: 5px;
+  color: rgb(76, 76, 76)
+}
+
+.logout button{
+  border-color: lightgray;
+}
+
+.logout button:hover {
+  background-color: rgb(252, 214, 210);
+}
+
+.togglable {
+  margin-bottom: 2px;
+}
+
+.togglable button {
+  margin-left: 0px;
+}
+
+._401 {
+  color: rgb(185, 13, 13)
+}
+
+._404 {
+  color: rgb(185, 13, 13)
+}
+
+._200 {
+  color: rgb(13, 81, 13);
+}
+
+._201 {
+  color: rgb(13, 81, 13);
+}
